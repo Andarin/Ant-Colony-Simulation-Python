@@ -1,0 +1,24 @@
+# Here can be instructions for a map
+# text and commands behind "#" on the first place in a line  are ignored
+# if small, 	coords should be in x = 5 to 295; y = 40 to 335
+# if big, 	coords should be in x = 5 to 595; y = 80 to 675
+
+# in the comparison, food and colony coords are given, the rest is free choosable
+
+board_size = small
+
+colony = {coord = {150,50}, ants = 50}
+food = {coord = {150,150}, amount = 5000}
+
+barrier = {coord = {102,100}, {198,100}}
+
+# Board parameters
+
+evaporating_time = 8000 	# in rounds
+field_smell_memory_lim = -1	# how many smells can be stored, -1 means no limitation
+        
+# Ant parameters
+self.stampede = 0.5   	# how likely the ant just chooses a random field, 1 means always
+self.straight_forward = 0.5	# how likely the ant choses a field in front of her, 1 means always
+self.scouter = 4            # how many ants are scouter and by that have stampede so they possibly discover a shorter way; 
+                            # 1 = every ant, 3 = one in three, 10 = one in 10
