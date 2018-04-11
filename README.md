@@ -1,7 +1,7 @@
 Project Description
 -------------------
 
-Ant Colony Simulation Project by Malte Lichtenberg and Lucas Tittmann under GNU GPL v3 is a project to simulate a colony of ants, represented in 2d in Python using PyGame.
+Ant Colony Simulation Project under GNU GPL v3 is a project to simulate a colony of ants, represented in 2d in Python using PyGame.
 
 Check out the latest version at Github: https://github.com/Andarin/Ant-Colony-Simulation-Python
 Operating system: Tested under Windows 7 64bit
